@@ -854,6 +854,77 @@ class PriceTrendTab(QWidget):
         except Exception as e:
             print(f"趋势图绘制出错: {e}")
 
+
+# ==================== 终极价格趋势图（V2.0 封神版）===================
+import pandas as pd
+from matplotlib.figure import Figure
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.dates import DateFormatter
+import matplotlib.dates as mdates
+from scipy.interpolate import make_interp_spline
+import numpy as np
+
+class UltimatePriceTrendTab(QWidget):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("价格趋势·终极版")
+        self.init_ui()
+
+    def init_ui(self):
+        layout = QVBoxLayout(self)
+
+        # 顶部控制栏
+        ctrl = QHBoxLayout()
+        ctrl.addWidget(QLabel("热门追踪："))
+        self.combo = QComboBox()
+        self.combo.addItems(["全部热门", "兽决", "符", "宝石", "书铁", "强化石", "附魔宝珠", "自定义"])
+        self.combo.currentTextChanged.connect(self.plot_trend)
+        ctrl.addWidget(self.combo)
+
+        self.smooth_cb = QCheckBox("平滑曲线")
+        self.smooth_cb.setChecked(True)
+        self.smooth_cb.stateChanged.connect(self.plot_trend)
+        ctrl.addWidget(self.smooth_cb)
+
+        self.predict_cb = QCheckBox("显示预测线")
+        self.predict_cb.setChecked(True)
+        self.predict_cb.stateChanged.connect(self.plot_trend)
+        ctrl.addWidget(self.predict_cb)
+
+        refresh_btn = QPushButton("刷新")
+        refresh_btn.clicked.connect(self.plot_trend)
+        ctrl.addWidget(refresh_btn)
+        ctrl.addStretch()
+
+        # 图表
+        self.figure = Figure(figsize=(14, 8), facecolor='#1e1e1e')
+        self.canvas = FigureCanvas(self.figure)
+        self.canvas.setStyleSheet("background:#1e1e1e;")
+
+        layout.addLayout(ctrl)
+        layout.addWidget(self.canvas, 1)
+        self.plot_trend()
+
+    def plot_trend(self):
+        try:
+            conn = sqlite3.connect("market_data.db")
+            df = pd.read_sql("SELECT name, price, timestamp FROM market_items ORDER BY timestamp", conn, parse_dates=['timestamp'])
+            conn.close()
+
+            if df.empty:
+                self.figure.clear()
+                ax = self.figure.add_subplot(111)
+                ax.text(0.5, 0.5, "暂无数据\n快去世界频道喊话吧~", ha='center', va='center', fontsize=24, color='#888')
+                ax.axis('off')
+                self.canvas.draw()
+                return
+
+            # 热门词典
+            hot_groups = {
+                "兽决": ["必杀","连击","偷袭","强力","感知","神佑","隐攻","幸存"],
+                "符": ["伤害符","力量符","体质符","魔力符","耐力符","敏捷符"],
+                "宝石": ["黑宝石","红玛瑙","太阳石","月亮石","舍利子","光芒石","翡翠石","星辉石"],
+                "书铁
 # 测试代码
 if __name__ == "__main__":
     from PyQt6.QtWidgets import QApplication
@@ -863,5 +934,6 @@ if __name__ == "__main__":
     window.resize(1200, 800)
     window.show()
     sys.exit(app.exec())
+
 
 
