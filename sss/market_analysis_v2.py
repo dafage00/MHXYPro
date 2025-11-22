@@ -95,12 +95,13 @@ class ManualInputDialog(QDialog):
         
         # 按钮
         buttons = QDialogButtonBox(
-            QDialogButtonBox.StandardButton.Ok | 
-            QDialogButtonBox.StandardButton.Cancel
+            QDialogButtonBox.StandardButton.Ok | QDialogButtonBox.StandardButton.Cancel
         )
         buttons.accepted.connect(self.accept)
         buttons.rejected.connect(self.reject)
         layout.addWidget(buttons)
+
+        self.resize(600, 400)
     
     def get_text(self) -> str:
         return self.text_edit.toPlainText()
@@ -778,3 +779,4 @@ if __name__ == "__main__":
     window.resize(1200, 800)
     window.show()
     sys.exit(app.exec())
+
