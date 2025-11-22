@@ -8836,6 +8836,9 @@ class MainWindow(QMainWindow):
         self.tabs.addTab(self.daily_brief_tab, "每日简报")
         self.tabs.addTab(self.transfer_tab, "互传文件")
         self.tabs.addTab(self.market_tab, "市场分析")
+        from market_analysis_v2 import PriceTrendTab
+        self.trend_tab = PriceTrendTab()
+        self.tabs.addTab(self.trend_tab, "价格趋势")
 
     def on_novel_imported(self, novel_id: str, info: Dict):
         """供下载页回调：自动导入后刷新列表并选中"""
