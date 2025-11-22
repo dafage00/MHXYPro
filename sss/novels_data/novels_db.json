@@ -1,0 +1,639 @@
+{
+  "novels": [
+    {
+      "id": "novel_1",
+      "title": "与神对话(全五卷).txt",
+      "author": "本地文件",
+      "description": "本地小说文件",
+      "url": "C:/Users/Administrator/Desktop/与神对话(全五卷).txt",
+      "source": "local",
+      "added_time": "2025-11-18T15:00:16.716529",
+      "last_read_time": "2025-11-19T20:09:06.999774",
+      "current_chapter": 118,
+      "total_chapters": 0
+    }
+  ],
+  "reading_history": [
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 0,
+      "chapter_title": "Chapter 01",
+      "read_time": "2025-11-18T16:14:56.683992"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 1,
+      "chapter_title": "Chapter 02",
+      "read_time": "2025-11-18T16:14:56.636151"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 2,
+      "chapter_title": "Chapter 03",
+      "read_time": "2025-11-18T16:14:56.619208"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 5,
+      "chapter_title": "Chapter 06",
+      "read_time": "2025-11-18T16:14:56.448017"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 6,
+      "chapter_title": "Chapter 07",
+      "read_time": "2025-11-18T16:14:56.432070"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 8,
+      "chapter_title": "Chapter 09",
+      "read_time": "2025-11-18T16:14:56.415127"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 10,
+      "chapter_title": "Chapter 11",
+      "read_time": "2025-11-18T16:14:56.393205"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 13,
+      "chapter_title": "Chapter 02",
+      "read_time": "2025-11-18T16:14:56.213900"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 13,
+      "chapter_title": "Chapter 14",
+      "read_time": "2025-11-18T16:14:56.185274"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 17,
+      "chapter_title": "Chapter 04",
+      "read_time": "2025-11-18T16:14:56.168330"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 19,
+      "chapter_title": "Chapter 06",
+      "read_time": "2025-11-18T16:14:55.988898"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 20,
+      "chapter_title": "Chapter 07",
+      "read_time": "2025-11-18T16:14:55.978931"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 23,
+      "chapter_title": "Chapter 10",
+      "read_time": "2025-11-18T16:14:55.774436"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 24,
+      "chapter_title": "Chapter 11",
+      "read_time": "2025-11-18T16:14:55.746017"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 26,
+      "chapter_title": "Chapter 13",
+      "read_time": "2025-11-18T16:14:55.714936"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 28,
+      "chapter_title": "Chapter 15",
+      "read_time": "2025-11-18T16:14:55.536546"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 29,
+      "chapter_title": "Chapter 16",
+      "read_time": "2025-11-18T16:14:55.507113"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 31,
+      "chapter_title": "Chapter 18",
+      "read_time": "2025-11-18T16:14:55.305196"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 32,
+      "chapter_title": "Chapter 19",
+      "read_time": "2025-11-18T16:14:55.259798"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 33,
+      "chapter_title": "Chapter 20",
+      "read_time": "2025-11-18T16:14:55.109251"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 32,
+      "chapter_title": "Chapter 19",
+      "read_time": "2025-11-18T16:14:55.064400"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 33,
+      "chapter_title": "Chapter 20",
+      "read_time": "2025-11-18T16:14:55.005084"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 34,
+      "chapter_title": "Chapter 01",
+      "read_time": "2025-11-18T16:14:54.340110"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 35,
+      "chapter_title": "Chapter 02",
+      "read_time": "2025-11-18T16:14:54.271331"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 36,
+      "chapter_title": "Chapter 03",
+      "read_time": "2025-11-18T16:14:53.990897"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 37,
+      "chapter_title": "Chapter 04",
+      "read_time": "2025-11-18T16:14:53.953513"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 38,
+      "chapter_title": "Chapter 05",
+      "read_time": "2025-11-18T16:14:53.931588"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 39,
+      "chapter_title": "Chapter 06",
+      "read_time": "2025-11-18T16:14:53.756221"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 40,
+      "chapter_title": "Chapter 07",
+      "read_time": "2025-11-18T16:14:53.740277"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 41,
+      "chapter_title": "Chapter 08",
+      "read_time": "2025-11-18T16:14:53.725324"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 42,
+      "chapter_title": "Chapter 09",
+      "read_time": "2025-11-18T16:14:53.709378"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 44,
+      "chapter_title": "Chapter 14",
+      "read_time": "2025-11-18T16:14:53.568230"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 44,
+      "chapter_title": "Chapter 11",
+      "read_time": "2025-11-18T16:14:53.544709"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 45,
+      "chapter_title": "Chapter 12",
+      "read_time": "2025-11-18T16:14:53.515529"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 46,
+      "chapter_title": "Chapter 13",
+      "read_time": "2025-11-18T16:14:53.497594"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 49,
+      "chapter_title": "Chapter 16",
+      "read_time": "2025-11-18T16:14:53.476116"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 53,
+      "chapter_title": "Chapter 20",
+      "read_time": "2025-11-18T16:14:53.317112"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 54,
+      "chapter_title": "Chapter 01",
+      "read_time": "2025-11-18T16:14:53.284884"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 55,
+      "chapter_title": "Chapter 02",
+      "read_time": "2025-11-18T16:14:53.274917"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 56,
+      "chapter_title": "Chapter 03",
+      "read_time": "2025-11-18T16:14:53.263953"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 59,
+      "chapter_title": "Chapter 06",
+      "read_time": "2025-11-18T16:14:53.084965"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 62,
+      "chapter_title": "Chapter 10",
+      "read_time": "2025-11-18T16:14:53.074998"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 62,
+      "chapter_title": "Chapter 09",
+      "read_time": "2025-11-18T16:14:53.061045"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 64,
+      "chapter_title": "Chapter 11",
+      "read_time": "2025-11-18T16:14:53.045098"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 66,
+      "chapter_title": "Chapter 13",
+      "read_time": "2025-11-18T16:14:52.872535"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 67,
+      "chapter_title": "Chapter 14",
+      "read_time": "2025-11-18T16:14:52.851605"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 68,
+      "chapter_title": "Chapter 16",
+      "read_time": "2025-11-18T16:14:52.840646"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 68,
+      "chapter_title": "Chapter 15",
+      "read_time": "2025-11-18T16:14:52.830683"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 70,
+      "chapter_title": "Chapter 17",
+      "read_time": "2025-11-18T16:14:52.654395"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 71,
+      "chapter_title": "Chapter 18",
+      "read_time": "2025-11-18T16:14:52.631467"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 72,
+      "chapter_title": "Chapter 19",
+      "read_time": "2025-11-18T16:14:52.620510"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 73,
+      "chapter_title": "Chapter 20",
+      "read_time": "2025-11-18T16:14:52.610537"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 74,
+      "chapter_title": "Chapter 21",
+      "read_time": "2025-11-18T16:14:52.600071"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 75,
+      "chapter_title": "Chapter 01",
+      "read_time": "2025-11-18T16:14:52.439259"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 76,
+      "chapter_title": "Chapter 02",
+      "read_time": "2025-11-18T16:14:52.400388"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 78,
+      "chapter_title": "Chapter 04",
+      "read_time": "2025-11-18T16:14:52.383927"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 79,
+      "chapter_title": "Chapter 05",
+      "read_time": "2025-11-18T16:14:52.184062"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 80,
+      "chapter_title": "Chapter 06",
+      "read_time": "2025-11-18T16:14:52.163132"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 81,
+      "chapter_title": "Chapter 07",
+      "read_time": "2025-11-18T16:14:52.139694"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 82,
+      "chapter_title": "Chapter 09",
+      "read_time": "2025-11-18T16:14:51.892470"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 82,
+      "chapter_title": "Chapter 08",
+      "read_time": "2025-11-18T16:14:51.871035"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 84,
+      "chapter_title": "Chapter 10",
+      "read_time": "2025-11-18T16:14:51.469967"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 85,
+      "chapter_title": "Chapter 11",
+      "read_time": "2025-11-18T16:14:51.422614"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 86,
+      "chapter_title": "Chapter 12",
+      "read_time": "2025-11-18T16:14:51.406157"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 87,
+      "chapter_title": "Chapter 13",
+      "read_time": "2025-11-18T16:14:51.047191"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 88,
+      "chapter_title": "Chapter 14",
+      "read_time": "2025-11-18T16:14:51.006810"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 89,
+      "chapter_title": "Chapter 15",
+      "read_time": "2025-11-18T16:14:50.512348"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 90,
+      "chapter_title": "Chapter 16",
+      "read_time": "2025-11-18T16:14:50.486926"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 91,
+      "chapter_title": "Chapter 17",
+      "read_time": "2025-11-18T16:14:50.471976"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 92,
+      "chapter_title": "Chapter 08那段文字。在那段文字里，你说你尚未达到大师的境界。你说别人的话语和行动有时候会让你感到伤心。基于这种情况，你问我应该如何应对这些让你受伤的经验。",
+      "read_time": "2025-11-18T16:14:49.487843"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 91,
+      "chapter_title": "Chapter 17",
+      "read_time": "2025-11-18T16:14:49.086022"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 90,
+      "chapter_title": "Chapter 16",
+      "read_time": "2025-11-18T16:14:48.626932"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 89,
+      "chapter_title": "Chapter 15",
+      "read_time": "2025-11-18T16:14:48.204472"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 90,
+      "chapter_title": "Chapter 16",
+      "read_time": "2025-11-18T16:14:48.149138"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 91,
+      "chapter_title": "Chapter 17",
+      "read_time": "2025-11-18T16:14:48.112262"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 92,
+      "chapter_title": "Chapter 08那段文字。在那段文字里，你说你尚未达到大师的境界。你说别人的话语和行动有时候会让你感到伤心。基于这种情况，你问我应该如何应对这些让你受伤的经验。",
+      "read_time": "2025-11-18T16:14:47.894144"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 93,
+      "chapter_title": "Chapter 18",
+      "read_time": "2025-11-18T16:14:47.627160"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 94,
+      "chapter_title": "Chapter 19",
+      "read_time": "2025-11-18T16:14:47.597256"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 95,
+      "chapter_title": "Chapter 20",
+      "read_time": "2025-11-18T16:14:47.530942"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 96,
+      "chapter_title": "Chapter 21",
+      "read_time": "2025-11-18T16:14:46.997814"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 95,
+      "chapter_title": "Chapter 20",
+      "read_time": "2025-11-18T16:14:46.959111"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 94,
+      "chapter_title": "Chapter 19",
+      "read_time": "2025-11-18T16:14:46.937185"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 93,
+      "chapter_title": "Chapter 18",
+      "read_time": "2025-11-18T16:14:46.906872"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 92,
+      "chapter_title": "Chapter 08那段文字。在那段文字里，你说你尚未达到大师的境界。你说别人的话语和行动有时候会让你感到伤心。基于这种情况，你问我应该如何应对这些让你受伤的经验。",
+      "read_time": "2025-11-18T16:14:46.872480"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 91,
+      "chapter_title": "Chapter 17",
+      "read_time": "2025-11-18T16:14:46.382103"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 90,
+      "chapter_title": "Chapter 15",
+      "read_time": "2025-11-18T16:14:46.359179"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 90,
+      "chapter_title": "Chapter 16",
+      "read_time": "2025-11-18T16:14:46.344210"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 88,
+      "chapter_title": "Chapter 14",
+      "read_time": "2025-11-18T16:14:45.871962"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 89,
+      "chapter_title": "Chapter 15",
+      "read_time": "2025-11-18T16:14:45.849039"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 90,
+      "chapter_title": "Chapter 16",
+      "read_time": "2025-11-18T16:14:45.814156"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 92,
+      "chapter_title": "Chapter 08那段文字。在那段文字里，你说你尚未达到大师的境界。你说别人的话语和行动有时候会让你感到伤心。基于这种情况，你问我应该如何应对这些让你受伤的经验。",
+      "read_time": "2025-11-18T16:14:45.793229"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 93,
+      "chapter_title": "Chapter 18",
+      "read_time": "2025-11-18T16:14:45.767106"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 94,
+      "chapter_title": "Chapter 19",
+      "read_time": "2025-11-18T16:14:45.458144"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 95,
+      "chapter_title": "Chapter 20",
+      "read_time": "2025-11-18T16:14:45.443194"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 96,
+      "chapter_title": "Chapter 21",
+      "read_time": "2025-11-18T16:14:45.407805"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 98,
+      "chapter_title": "Chapter 02",
+      "read_time": "2025-11-18T16:14:45.378345"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 99,
+      "chapter_title": "Chapter 03",
+      "read_time": "2025-11-18T16:14:45.366388"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 101,
+      "chapter_title": "Chapter 05",
+      "read_time": "2025-11-18T16:14:45.088154"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 102,
+      "chapter_title": "Chapter 06",
+      "read_time": "2025-11-18T16:14:45.072691"
+    },
+    {
+      "novel_id": "novel_1",
+      "chapter_index": 103,
+      "chapter_title": "Chapter 08",
+      "read_time": "2025-11-18T16:14:45.038255"
+    }
+  ],
+  "reading_stats": {
+    "novel_2": {
+      "total_reading_time": 210.03240656852722,
+      "total_words_read": 131196,
+      "last_update_time": "2025-11-18T15:07:08.149252"
+    },
+    "novel_3": {
+      "total_reading_time": 300.0634231567383,
+      "total_words_read": 130528,
+      "last_update_time": "2025-11-18T12:51:23.846199"
+    },
+    "novel_1": {
+      "total_reading_time": 1195.7628798484802,
+      "total_words_read": 1077328,
+      "last_update_time": "2025-11-18T16:18:00.204138"
+    }
+  },
+  "bookmarks": {
+    "novel_1": []
+  },
+  "processed_downloads": []
+}

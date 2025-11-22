@@ -1,0 +1,184 @@
+{
+  "market_data": {
+    "质量兽决": {
+      "buy": [
+        3.0
+      ],
+      "sell": [],
+      "latest_time": 1763737030.5760224,
+      "category": "召唤兽/宝宝",
+      "subcategory": "未分类",
+      "confidence": 0.9
+    },
+    "龙鳞": {
+      "buy": [
+        9.0
+      ],
+      "sell": [],
+      "latest_time": 1763737030.5905406,
+      "category": "人物物品",
+      "subcategory": "未分类",
+      "confidence": 0.9
+    },
+    "月华露": {
+      "buy": [
+        5.0
+      ],
+      "sell": [],
+      "latest_time": 1763737030.6049972,
+      "category": "杂项",
+      "subcategory": "未分类",
+      "confidence": 0.9
+    },
+    "牌子": {
+      "buy": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "sell": [],
+      "latest_time": 1763737030.614964,
+      "category": "杂项",
+      "subcategory": "未分类",
+      "confidence": 0.9
+    }
+  },
+  "raw_messages": [
+    {
+      "item": "质量兽决",
+      "category": "召唤兽/宝宝",
+      "subcategory": "未分类",
+      "confidence": 0.9,
+      "match_method": "contains",
+      "type": "buy",
+      "price": 3.0,
+      "text": "[杂货(6652529)】质量兽决73万吸收小法68万金刚99定魂99夜光80碧水08龙鳞49",
+      "time": "22:57:10",
+      "raw_item": "质量兽决7",
+      "status": "pending"
+    },
+    {
+      "item": "龙鳞",
+      "category": "人物物品",
+      "subcategory": "未分类",
+      "confidence": 0.9,
+      "match_method": "contains",
+      "type": "buy",
+      "price": 9.0,
+      "text": "[杂货(6652529)】质量兽决73万吸收小法68万金刚99定魂99夜光80碧水08龙鳞49",
+      "time": "22:57:10",
+      "raw_item": "龙鳞4",
+      "status": "pending"
+    },
+    {
+      "item": "月华露",
+      "category": "杂项",
+      "subcategory": "未分类",
+      "confidence": 0.9,
+      "match_method": "contains",
+      "type": "buy",
+      "price": 5.0,
+      "text": "雨45小雨05树苗34超6624彩果23月华5人在天台高收一切!",
+      "time": "22:57:10",
+      "raw_item": "月华",
+      "status": "pending"
+    },
+    {
+      "item": "牌子",
+      "category": "杂项",
+      "subcategory": "未分类",
+      "confidence": 0.9,
+      "match_method": "contains",
+      "type": "buy",
+      "price": 5.0,
+      "text": "[练T晨希厂4]345W收牌子345W收牌子345W收牌子345W收牌子+HH1",
+      "time": "22:57:10",
+      "raw_item": "牌子34",
+      "status": "pending"
+    },
+    {
+      "item": "牌子",
+      "category": "杂项",
+      "subcategory": "未分类",
+      "confidence": 0.9,
+      "match_method": "contains",
+      "type": "buy",
+      "price": 5.0,
+      "text": "[练T晨希厂4]345W收牌子345W收牌子345W收牌子345W收牌子+HH1",
+      "time": "22:57:10",
+      "raw_item": "牌子34",
+      "status": "pending"
+    },
+    {
+      "item": "牌子",
+      "category": "杂项",
+      "subcategory": "未分类",
+      "confidence": 0.9,
+      "match_method": "contains",
+      "type": "buy",
+      "price": 5.0,
+      "text": "[练T晨希厂4]345W收牌子345W收牌子345W收牌子345W收牌子+HH1",
+      "time": "22:57:10",
+      "raw_item": "牌子34",
+      "status": "pending"
+    }
+  ],
+  "item_repository": {
+    "质量兽决": {
+      "count": 1,
+      "last_price": 3.0,
+      "min_price": 3.0,
+      "max_price": 3.0,
+      "history": [
+        [
+          1763737030.5760224,
+          3.0
+        ]
+      ]
+    },
+    "龙鳞": {
+      "count": 1,
+      "last_price": 9.0,
+      "min_price": 9.0,
+      "max_price": 9.0,
+      "history": [
+        [
+          1763737030.5905406,
+          9.0
+        ]
+      ]
+    },
+    "月华露": {
+      "count": 1,
+      "last_price": 5.0,
+      "min_price": 5.0,
+      "max_price": 5.0,
+      "history": [
+        [
+          1763737030.6049972,
+          5.0
+        ]
+      ]
+    },
+    "牌子": {
+      "count": 3,
+      "last_price": 5.0,
+      "min_price": 5.0,
+      "max_price": 5.0,
+      "history": [
+        [
+          1763737030.611974,
+          5.0
+        ],
+        [
+          1763737030.6139677,
+          5.0
+        ],
+        [
+          1763737030.614964,
+          5.0
+        ]
+      ]
+    }
+  }
+}
