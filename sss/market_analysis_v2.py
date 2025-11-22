@@ -768,7 +768,91 @@ class MarketAnalysisV2Tab(QWidget):
         # 关闭数据库
         self.db.close()
         super().closeEvent(event)
+# ==================== 新增：价格趋势图标签页 ====================
+import pandas as pd
+from matplotlib.figure import Figure
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.dates import DateFormatter
+import matplotlib.dates as mdates
 
+class PriceTrendTab(QWidget):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.parent = parent
+        self.setWindowTitle("价格趋势")
+        self.init_ui()
+
+    def init_ui(self):
+        layout = QVBoxLayout(self)
+
+        # 顶部操作栏
+        top_bar = QHBoxLayout()
+        refresh_btn = QPushButton("刷新趋势图")
+        refresh_btn.clicked.connect(self.plot_trend)
+        top_bar.addWidget(QLabel("热门物品趋势："))
+        top_bar.addWidget(refresh_btn)
+        top_bar.addStretch()
+
+        # 图表
+        self.figure = Figure(figsize=(12, 7), facecolor='#2b2b2b')
+        self.canvas = FigureCanvas(self.figure)
+        self.canvas.setStyleSheet("background:#2b2b2b;")
+
+        layout.addLayout(top_bar)
+        layout.addWidget(self.canvas, 1)
+        self.plot_trend()  # 启动时自动画一次
+
+    def plot_trend(self):
+        try:
+            conn = sqlite3.connect("market_data.db")
+            df = pd.read_sql("""
+                SELECT name, price, timestamp 
+                FROM market_items 
+                WHERE name IN ('高级必杀','伤害符','黑宝石','C66','神兜兜','炼兽真经','五色灵尘')
+                ORDER BY timestamp
+            """, conn, parse_dates=['timestamp'])
+            conn.close()
+
+            if df.empty:
+                self.figure.clear()
+                ax = self.figure.add_subplot(111)
+                ax.text(0.5, 0.5, "暂无数据\n去采集几条记录再来看哦~", 
+                       ha='center', va='center', fontsize=20, color='gray')
+                ax.axis('off')
+                self.canvas.draw()
+                return
+
+            self.figure.clear()
+            ax = self.figure.add_subplot(111)
+            ax.set_facecolor('#2b2b2b')
+            self.figure.patch.set_facecolor('#2b2b2b')
+
+            colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f9ca24', '#f3722c', '#a29bfe', '#fd79a8']
+            for i, item in enumerate(df['name'].unique()):
+                data = df[df['name'] == item]
+                ax.plot(data['timestamp'], data['price'], 
+                       'o-', label=f"{item} ({data['price'].iloc[-1]:.1f}万)", 
+                       color=colors[i % len(colors)], linewidth=2.5, markersize=6)
+
+            ax.set_title("梦幻西游热门物品实时价格趋势", fontsize=18, color='white', pad=20)
+            ax.set_ylabel("价格（万）", fontsize=14, color='white')
+            ax.set_xlabel("时间", fontsize=14, color='white')
+            ax.legend(facecolor='#3a3a3a', labelcolor='white')
+            ax.grid(True, alpha=0.3, color='gray')
+            ax.tick_params(colors='white')
+            ax.spines['bottom'].set_color('white')
+            ax.spines['top'].set_color('white')
+            ax.spines['left'].set_color('white')
+            ax.spines['right'].set_color('white')
+
+            # 美化时间轴
+            ax.xaxis.set_major_formatter(mdates.DateFormatter('%m-%d %H:%M'))
+            ax.xaxis.set_major_locator(mdates.HourLocator(interval=2))
+            self.figure.autofmt_xdate()
+
+            self.canvas.draw()
+        except Exception as e:
+            print(f"趋势图绘制出错: {e}")
 
 # 测试代码
 if __name__ == "__main__":
@@ -779,4 +863,5 @@ if __name__ == "__main__":
     window.resize(1200, 800)
     window.show()
     sys.exit(app.exec())
+
 
